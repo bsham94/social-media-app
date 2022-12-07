@@ -6,7 +6,7 @@ import decode from 'jwt-decode';
 
 import memoriesLogo from '../../images/memories-Logo.png';
 import memoriesText from '../../images/memories-Text.png';
-import * as actionType from '../../constants/actoinTypes'
+import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
 const Navbar = () => {
