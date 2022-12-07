@@ -52,7 +52,7 @@ const Auth = () => {
         if (token) 
         {
             result = jwt_decode(token)
-            console.log(result)
+            result = {...result, token}
         }
         try {
             dispatch({type: 'AUTH', data: {result}})
